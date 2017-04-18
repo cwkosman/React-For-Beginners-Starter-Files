@@ -68,8 +68,8 @@ class App extends React.Component {
   removeFish(key) {
     const fishes = {...this.state.fishes};
     fishes[key] = null;
-    this.setState({ fishes })
-;  }
+    this.setState({ fishes });
+  }
 
   loadSamples() {
     this.setState({
@@ -120,6 +120,10 @@ class App extends React.Component {
       </div>
     )
   }
+}
+
+App.propTypes = {
+  params: React.PropTypes.object.isRequired
 }
 
 export default App

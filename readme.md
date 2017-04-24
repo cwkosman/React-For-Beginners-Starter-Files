@@ -1,5 +1,5 @@
 
-#Catch of the Day
+# Catch of the Day
 A single page storefront built with React and Firebase.
 
 ## Instructions
